@@ -1,7 +1,7 @@
 name: Jest Tests
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master ] # push to main branch will trigger the workflow to test
   pull_request:
     branches: [ main, master ]
 jobs:
