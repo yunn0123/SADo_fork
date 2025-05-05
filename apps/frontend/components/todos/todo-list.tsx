@@ -7,10 +7,10 @@ async function getTodos() {
     const data = await todoApi.getAllTodos();
     return data;
   } catch (error) {
-    console.error(error);
+    console.error("catch error: ", error);
     return [];
   }
-}
+}  
 
 export default async function TodoList() {
   const todos = await getTodos();
