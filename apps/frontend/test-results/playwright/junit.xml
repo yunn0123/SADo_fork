@@ -1,0 +1,36 @@
+<testsuites id="" name="" tests="2" failures="2" skipped="0" errors="0" time="1.1381400000000002">
+<testsuite name="todo.spec.js" timestamp="2025-05-05T09:19:50.747Z" hostname="chromium" tests="2" failures="2" skipped="0" time="0.008" errors="0">
+<testcase name="測試新增待辦事項" classname="todo.spec.js" time="0.004">
+<failure message="todo.spec.js:5:1 測試新增待辦事項" type="FAILURE">
+<![CDATA[  [chromium] › todo.spec.js:5:1 › 測試新增待辦事項 ─────────────────────────────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/yunn/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="測試刪除待辦事項" classname="todo.spec.js" time="0.004">
+<failure message="todo.spec.js:21:1 測試刪除待辦事項" type="FAILURE">
+<![CDATA[  [chromium] › todo.spec.js:21:1 › 測試刪除待辦事項 ────────────────────────────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/yunn/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>
