@@ -10,7 +10,7 @@ async function getTodos() {
     console.error(error);
     return [];
   }
-}
+} 
 
 export default async function TodoList() {
   const todos = await getTodos();
